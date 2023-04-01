@@ -90,26 +90,8 @@ for(var i = 0;i<buttons.length;i++)
             }
             // console.log(num2);
             display.innerText=num2+operator+num1;
-        }else if(value=='1'||value=='2'||value=='3'||value=='4'||value=='5'||value=='6'||value=='7'||value=='8'||value=='9'||value=='0'){
+        }else if(value=='1'||value=='2'||value=='3'||value=='4'||value=='5'||value=='6'||value=='7'||value=='8'||value=='9'||value=='0'||value=='.'){
             num1+=value;
             display.innerText=num2+operator+num1;
         }
     },false);
-
-    // document.addEventListener('keypress',(event)=>{
-    //     var value = event.key;
-    //     if(value=='Backspace')
-    //     {
-    //         if(num1==''&&operator=='')
-    //         num2="";
-    //         if(num1=='')
-    //         {
-    //             if(operator!='')
-    //             operator="";
-    //         }else{
-    //             num1="";
-    //         }
-    //         // console.log(num2);
-    //         display.innerText=num2+operator+num1;
-    //     }
-    // })
